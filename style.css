@@ -1,0 +1,59 @@
+body{
+    background-color: #6495ED;
+}
+.mark{
+    height: 70px;
+    font-size: 60px;
+    color: #00FFEF;
+    border-style: solid;
+    border-color: #4666FF;
+    border-width: 5px;
+    border-radius: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+.header{
+    border-style: double;
+    background-color: lightblue;
+    border-radius: 5px;
+    border-width: 7px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+#aboutme{
+    color: #191970;
+    font-size: 35px;
+    font-family: cursive;
+}
+#headerimage{
+    border-style: solid;
+    border-radius: 300px;
+    background-color: #25257f;
+}
+.allart{
+    display: flex;
+    border-style: solid;
+    border-color: rgb(58, 14, 135);
+    background-color: rgb(144, 166, 230);
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.eachart{
+    flex-basis: 33%;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+h3{
+    color: rgb(27, 11, 91);
+    font-family:monospace;
+    font-size: 160%;
+}
